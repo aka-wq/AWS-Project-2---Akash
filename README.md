@@ -32,7 +32,7 @@ Figure: Athena for Serverless Interactive Analytics Services.
 ### 2. Data Protection
 - The main purpose of this phase was to maintain data security within the AWS S3 client environment. The following screenshots describe main security settings like Bucket Policies and Encryption, Replication that enhances the secure data management on the platform.
 
-1. 	In this setup, a new key was created to create extra security measure using AWS Key Management Service (KMS). The NAME of the key created on AWS is “grp6-prt2-anmlcnvin-lstfnd-kms-karthik it is a SYMMETRIC type and is designed to perform the ENCRYPTION and DECRYPTION within the confines of the AWS. This key will serve a lot of importance in keeping secured the data placed in AWS S3.
+1. 	In this setup, a new key was created to create extra security measure using AWS Key Management Service (KMS). The NAME of the key created on AWS is “grp4-prt2-anmlcnvin-lstfnd-kms-akash it is a SYMMETRIC type and is designed to perform the ENCRYPTION and DECRYPTION within the confines of the AWS. This key will serve a lot of importance in keeping secured the data placed in AWS S3.
 
 ![Screenshot (174)](https://github.com/user-attachments/assets/1d7a7215-3f92-4d17-835d-30e7f93f51c8)
 
@@ -80,11 +80,11 @@ Then, the processed data is transferred and stored in the Trusted folder in S3 f
 
 
 
--The CloudWatch dashboard, named " grp6-prt2-anmlcnvn-lstfnd-DAP_DASH-karthik" includes:
+-The CloudWatch dashboard, named " grp4-prt2-anmlcnvn-lstfnd-DAP_DASH-akash" includes:
  •	Estimated Charges: Features a meter which shows the current estimates of costs.
  •	Number of Objects: Mostly contains a graph to describe the count of objects over time.
  •	Bucket Size in Bytes: It clears an understanding to depict the size of the bucket in byte so that it will be convenient to mention about the storage usage.
- •	Alam: An alarm named “grp6-prt2-anmlcnvn-lstfnd-alarm-karthik” is raised for certain limit like number of objects or even estimated charges. This means that beyond the limits, the system has a capacity to send an email alert to encourage active monitoring.
+ •	Alarm: An alarm named “grp4-prt2-anmlcnvn-lstfnd-alarm-akash” is raised for certain limit like number of objects or even estimated charges. This means that beyond the limits, the system has a capacity to send an email alert to encourage active monitoring.
 
 
 ![Screenshot (183)](https://github.com/user-attachments/assets/fabae73b-99d9-4c92-9a04-7561e6c4213e)
